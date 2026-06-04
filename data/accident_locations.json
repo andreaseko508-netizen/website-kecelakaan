@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name": "Persimpangan Jln Ahmad Yani - Jln Diponegoro",
+        "address": "Kuningan, Bandung",
+        "latitude": -6.9175,
+        "longitude": 107.6063,
+        "severity": "critical",
+        "date": "2026-05-15",
+        "description": "Lokasi rawan dengan sering terjadi tabrakan di saat rush hour",
+        "incident_count": 12
+    },
+    {
+        "id": 2,
+        "name": "Jalan Sudirman Underpass",
+        "address": "Jakarta Pusat",
+        "latitude": -6.2089,
+        "longitude": 106.8050,
+        "severity": "critical",
+        "date": "2026-05-10",
+        "description": "Area underpass dengan visibility rendah dan traffic padat",
+        "incident_count": 18
+    },
+    {
+        "id": 3,
+        "name": "Simpang Lima Semarang",
+        "address": "Semarang",
+        "latitude": -7.0051,
+        "longitude": 110.4233,
+        "severity": "high",
+        "date": "2026-05-12",
+        "description": "Persimpangan kompleks dengan banyak arah lalu lintas",
+        "incident_count": 9
+    },
+    {
+        "id": 4,
+        "name": "Jalan Bypass Ngurah Rai",
+        "address": "Denpasar, Bali",
+        "latitude": -8.6695,
+        "longitude": 115.2126,
+        "severity": "high",
+        "date": "2026-05-08",
+        "description": "Jalan bypass dengan kecepatan tinggi dan kurva tajam",
+        "incident_count": 7
+    },
+    {
+        "id": 5,
+        "name": "Bundaran HI",
+        "address": "Jakarta Pusat",
+        "latitude": -6.1945,
+        "longitude": 106.8123,
+        "severity": "critical",
+        "date": "2026-05-14",
+        "description": "Bundaran besar dengan banyak arus kendaraan dari berbagai arah",
+        "incident_count": 15
+    },
+    {
+        "id": 6,
+        "name": "Jalan Sultan Agung-Jalan Gajah Mada",
+        "address": "Malang",
+        "latitude": -7.9851,
+        "longitude": 112.6329,
+        "severity": "monitor",
+        "date": "2026-05-11",
+        "description": "Area perdagangan dengan parkir tepi jalan yang mengganggu lalu lintas",
+        "incident_count": 3
+    },
+    {
+        "id": 7,
+        "name": "Tol Jakarta-Cikampek KM 20",
+        "address": "Karawang",
+        "latitude": -6.3153,
+        "longitude": 107.1456,
+        "severity": "high",
+        "date": "2026-05-09",
+        "description": "Area tol dengan exit mendadak dan kepadatan kendaraan tinggi",
+        "incident_count": 8
+    },
+    {
+        "id": 8,
+        "name": "Jalan Ahmad Yani - Bandara Intersection",
+        "address": "Bandung",
+        "latitude": -6.8958,
+        "longitude": 107.6069,
+        "severity": "monitor",
+        "date": "2026-05-13",
+        "description": "Area bandara dengan banyak kendaraan umum dan kendaraan khusus",
+        "incident_count": 2
+    },
+    {
+        "id": 9,
+        "name": "Jalan Raya Bogor KM 35",
+        "address": "Depok",
+        "latitude": -6.4000,
+        "longitude": 106.8159,
+        "severity": "high",
+        "date": "2026-05-07",
+        "description": "Jalan dengan banyak pusat perbelanjaan dan kegiatan komersial",
+        "incident_count": 6
+    },
+    {
+        "id": 10,
+        "name": "Jalan Veteran-Jalan Sudirman",
+        "address": "Yogyakarta",
+        "latitude": -7.7833,
+        "longitude": 110.3667,
+        "severity": "monitor",
+        "date": "2026-05-06",
+        "description": "Area pusat kota dengan pedestrian dan kendaraan yang ramai",
+        "incident_count": 1
+    }
+]
