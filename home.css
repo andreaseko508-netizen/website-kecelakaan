@@ -1,0 +1,150 @@
+/* ===========================
+   HOME PAGE STYLES
+   =========================== */
+
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.hero-section h1 {
+    color: var(--white);
+    animation: slideInLeft 0.8s ease-out;
+}
+
+.hero-section p {
+    color: rgba(255, 255, 255, 0.9);
+    animation: fadeInUp 0.8s ease-out 0.2s backwards;
+}
+
+.hero-section .d-flex {
+    animation: fadeInUp 0.8s ease-out 0.4s backwards;
+}
+
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.icon-box {
+    text-align: center;
+    animation: fadeInUp 0.8s ease-out 0.6s backwards;
+}
+
+/* ===========================
+   TECH CARDS
+   =========================== */
+
+.tech-card {
+    padding: 2rem 1.5rem;
+    background: var(--white);
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.tech-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+}
+
+.tech-icon {
+    font-size: 3rem;
+}
+
+.tech-card h5 {
+    margin: 1rem 0 0.5rem;
+    font-weight: 600;
+}
+
+.tech-card p {
+    font-size: 0.875rem;
+}
+
+/* ===========================
+   FEATURE CARDS
+   =========================== */
+
+.feature-card {
+    padding: 1.5rem;
+    background: var(--white);
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateX(5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.feature-icon {
+    min-width: 60px;
+    text-align: center;
+}
+
+.feature-card h5 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.feature-card p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+/* ===========================
+   CTA SECTION
+   =========================== */
+
+.cta-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-top: 4px solid var(--primary-color);
+}
+
+.cta-section h2 {
+    color: var(--white);
+}
+
+.cta-section p {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* ===========================
+   PAGE HEADER
+   =========================== */
+
+.page-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.page-header h1 {
+    color: var(--white);
+}
+
+.page-header p {
+    margin-bottom: 0;
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+   =========================== */
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 3rem 0 !important;
+    }
+
+    .hero-image {
+        min-height: 300px;
+    }
+
+    .tech-card {
+        padding: 1.5rem;
+    }
+
+    .feature-card {
+        padding: 1rem;
+    }
+}

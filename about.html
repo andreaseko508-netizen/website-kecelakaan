@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tentang Sistem - Sistem Deteksi Kecelakaan Otomatis">
+    <title>Tentang Sistem - Sistem Deteksi Kecelakaan</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-mobile-alt"></i> GoHelp
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accelerometer.html">Data Accelerometer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="map.html">Peta Lokasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">Tentang Sistem</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="h2 fw-bold mb-2">
+                        <i class="fas fa-circle-info"></i> Tentang Sistem
+                    </h1>
+                    <p class="text-white-50">Dokumentasi lengkap tentang penelitian dan sistem deteksi kecelakaan</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#workflowModal">
+                        <i class="bi bi-info-circle-fill"></i> Pelajari Cara Kerja Sistem
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="py-5">
+        <div class="container">
+            <!-- Tentang Penelitian -->
+            <section class="mb-5">
+                <h2 class="h3 fw-bold mb-4">
+                    <i class="fas fa-book"></i> Tentang Penelitian
+                </h2>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary mb-3">
+                                    <i class="fas fa-graduation-cap"></i> Judul Penelitian
+                                </h5>
+                                <p class="card-text">
+                                    Sistem Deteksi Kecelakaan Otomatis Berbasis Smartphone Menggunakan Algoritma Decision Tree untuk Meningkatkan Keselamatan Pengguna Jalan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary mb-3">
+                                    <i class="fas fa-lightbulb"></i> Latar Belakang
+                                </h5>
+                                <p class="card-text">
+                                    Kecelakaan pengguna jalan merupakan masalah serius yang mengakibatkan kerugian materil dan jiwa. Penelitian ini bertujuan untuk mengembangkan sistem yang dapat mendeteksi kecelakaan secara otomatis menggunakan sensor accelerometer pada smartphone.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tujuan Penelitian -->
+            <section class="mb-5 bg-light p-5 rounded">
+                <h2 class="h3 fw-bold mb-4">
+                    <i class="fas fa-target"></i> Tujuan Penelitian
+                </h2>
+                <ul class="list-unstyled">
+                    <li class="mb-3">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <strong>Tujuan Umum:</strong> Mengembangkan sistem deteksi kecelakaan otomatis yang dapat memberikan respons cepat dan akurat untuk meningkatkan keselamatan pengguna jalan.
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <strong>Tujuan Khusus 1:</strong> Menganalisis pola data accelerometer untuk membedakan kondisi normal dan kondisi kecelakaan.
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <strong>Tujuan Khusus 2:</strong> Mengimplementasikan algoritma Decision Tree untuk klasifikasi kecelakaan dengan akurasi tinggi.
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <strong>Tujuan Khusus 3:</strong> Membangun aplikasi mobile berbasis Android yang dapat mendeteksi kecelakaan secara real-time.
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle text-success"></i>
+                        <strong>Tujuan Khusus 4:</strong> Mengembangkan website informasi untuk visualisasi data dan analisis kecelakaan yang terjadi.
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Teknologi yang Digunakan -->
+            <section class="mb-5">
+                <h2 class="h3 fw-bold mb-4">
+                    <i class="fas fa-microchip"></i> Teknologi yang Digunakan
+                </h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-success text-white">
+                                <h5 class="mb-0">Backend & Database</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><strong>Machine Learning:</strong> Python, scikit-learn</li>
+                                    <li class="mb-2"><strong>Algoritma:</strong> Decision Tree (Classification)</li>
+                                    <li class="mb-2"><strong>Dataset:</strong> Sensor accelerometer data</li>
+                                    <li class="mb-2"><strong>Processing:</strong> Pandas, NumPy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-info text-white">
+                                <h5 class="mb-0">Frontend & Visualisasi</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><strong>HTML5/CSS3:</strong> Struktur & styling</li>
+                                    <li class="mb-2"><strong>JavaScript ES6:</strong> Interaktifitas</li>
+                                    <li class="mb-2"><strong>Bootstrap 5:</strong> Framework CSS</li>
+                                    <li class="mb-2"><strong>Chart.js:</strong> Visualisasi grafik data</li>
+                                    <li class="mb-2"><strong>Leaflet.js:</strong> Peta interaktif lokasi</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-warning text-white">
+                                <h5 class="mb-0">Mobile Application</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><strong>Platform:</strong> Android</li>
+                                    <li class="mb-2"><strong>Bahasa:</strong> Java / Kotlin</li>
+                                    <li class="mb-2"><strong>SDK:</strong> Android SDK</li>
+                                    <li class="mb-2"><strong>Sensor:</strong> Accelerometer API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-danger text-white">
+                                <h5 class="mb-0">Tools & Development</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><strong>IDE:</strong> Android Studio, VS Code</li>
+                                    <li class="mb-2"><strong>Version Control:</strong> Git</li>
+                                    <li class="mb-2"><strong>Testing:</strong> Unit & Integration Test</li>
+                                    <li class="mb-2"><strong>Documentation:</strong> GitHub Pages</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Profil Peneliti -->
+            <section class="mb-5">
+                <h2 class="h3 fw-bold mb-4">
+                    <i class="fas fa-users"></i> Profil Peneliti
+                </h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm text-center">
+                            <div class="card-body">
+                                <div class="researcher-avatar mb-3">
+                                    <i class="fas fa-user-circle fa-5x text-primary"></i>
+                                </div>
+                                <h5 class="card-title">Andreas Mesyanus Eko</h5>
+                                <p class="card-text text-muted">NIM: 51230119</p>
+                                <p class="card-text small">Universitas Timor</p>
+                                <p class="card-text small text-muted">Prodi Sistem Informasi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm text-center">
+                            <div class="card-body">
+                                <div class="researcher-avatar mb-3">
+                                    <i class="fas fa-user-tie fa-5x text-success"></i>
+                                </div>
+                                <h5 class="card-title">Melkianus amsikan </h5>
+                                <p class="card-text text-muted">NIM : 51230107</p>
+                                <p class="card-text small">Universitas Timor</p>
+                                <p class="card-text small text-muted">Prodi Sistem Informasi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm text-center">
+                            <div class="card-body">
+                                <div class="researcher-avatar mb-3">
+                                    <i class="fas fa-user-tie fa-5x text-info"></i>
+                                </div>
+                                <h5 class="card-title">3.	Benediktus yanuarius sisuk</h5>
+                                <p class="card-text text-muted">NIM : 51230127</p>
+                                <p class="card-text small">Universitas Timor</p>
+                                <p class="card-text small text-muted">Prodi Sistem Informasi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Metodologi -->
+            <section class="mb-5 bg-light p-5 rounded">
+                <h2 class="h3 fw-bold mb-4">
+                    <i class="fas fa-flask"></i> Metodologi Penelitian
+                </h2>
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">
+                        <strong>Pengumpulan Data:</strong> Mengumpulkan data accelerometer dari berbagai pengguna dan situasi menggunakan aplikasi mobile.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Preprocessing Data:</strong> Membersihkan dan mempersiapkan data untuk training model machine learning.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Feature Engineering:</strong> Mengekstrak fitur-fitur penting dari data accelerometer seperti magnitude, variance, dan peak detection.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Training Model:</strong> Melatih algoritma Decision Tree menggunakan dataset yang telah disiapkan.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Testing & Evaluation:</strong> Menguji model dengan test dataset dan mengukur akurasi, precision, recall, dan F1-score.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Integration & Deployment:</strong> Mengintegrasikan model ke dalam aplikasi mobile dan website untuk implementasi real-time.
+                    </li>
+                </ol>
+            </section>
+
+            <!-- Cara Kerja Deteksi Kecelakaan -->
+            <section class="mb-5">
+                <div class="mb-5 p-5 rounded" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                    <h2 class="h2 fw-bold mb-3">
+                        <i class="fas fa-brain"></i> Bagaimana Sistem Menentukan Terjadi Kecelakaan?
+                    </h2>
+                    <p class="lead mb-0">
+                        Sistem mendeteksi kecelakaan berdasarkan kombinasi data Accelerometer, GPS, dan konfirmasi pengguna yang dianalisis menggunakan algoritma Decision Tree.
+                    </p>
+                </div>
+
+                <!-- 1. Pembacaan Sensor Accelerometer -->
+                <div class="row g-4 mb-4">
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-gauge"></i> Pembacaan Sensor Accelerometer
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text mb-3">
+                                    Sensor accelerometer membaca percepatan pada tiga sumbu yaitu <strong>X, Y, dan Z</strong>.
+                                </p>
+                                <p class="card-text mb-4">
+                                    Nilai ketiga sumbu tersebut digunakan untuk menghitung resultan percepatan menggunakan rumus:
+                                </p>
+                                <div class="bg-light p-4 rounded text-center mb-3" style="border-left: 4px solid #007bff;">
+                                    <p class="mb-0 fw-bold" style="font-size: 1.2rem;">
+                                        ATt = √(AccX² + AccY² + AccZ²)
+                                    </p>
+                                </div>
+                                <small class="text-muted">
+                                    <i class="fas fa-info-circle"></i> ATt = Resultan Accelerometer (m/s²)
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Kondisi Tidak Kecelakaan -->
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-header bg-success text-white">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-circle-check"></i> Kondisi Tidak Kecelakaan
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text mb-3">Sistem menganggap pengguna tidak mengalami kecelakaan apabila:</p>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2">
+                                        <i class="fas fa-check text-success"></i> Nilai resultan accelerometer berada pada rentang normal
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-check text-success"></i> Perubahan percepatan tidak ekstrem
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-check text-success"></i> Kecepatan kendaraan stabil
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-check text-success"></i> Tidak terjadi benturan yang signifikan
+                                    </li>
+                                </ul>
+                                <div class="bg-light p-3 rounded" style="border-left: 4px solid #28a745;">
+                                    <small class="text-muted d-block mb-2"><strong>Contoh Data:</strong></small>
+                                    <small>AccX = 0.24 | AccY = 1.57 | AccZ = 10.01</small><br/>
+                                    <small class="fw-bold">ATt = 10.14 <span class="badge bg-success ms-2">Tidak Kecelakaan</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Potensi Kecelakaan -->
+                <div class="row g-4 mb-4">
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-header bg-warning text-white">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-exclamation-triangle"></i> Potensi Kecelakaan
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text mb-3">
+                                    Sistem mulai mencurigai adanya kecelakaan apabila terjadi perubahan percepatan secara tiba-tiba.
+                                </p>
+                                <p class="card-text mb-3"><strong>Indikator Potensi Kecelakaan:</strong></p>
+                                <div class="bg-light p-3 rounded mb-3" style="border-left: 4px solid #ffc107;">
+                                    <p class="mb-2 fw-bold text-warning">
+                                        ATt > 13 m/s² <span class="badge bg-warning text-dark ms-2">atau</span>
+                                    </p>
+                                    <p class="mb-0 fw-bold text-warning">
+                                        ATt < 7 m/s²
+                                    </p>
+                                </div>
+                                <small class="text-muted">
+                                    Menunjukkan adanya benturan atau perubahan posisi yang ekstrem
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. Validasi Menggunakan GPS -->
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-header bg-info text-white">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-map-location-dot"></i> Validasi Menggunakan GPS
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text mb-3">
+                                    Setelah accelerometer mendeteksi anomali, sistem memeriksa data GPS.
+                                </p>
+                                <p class="card-text mb-3"><strong>Parameter yang Diamati:</strong></p>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2">
+                                        <i class="fas fa-arrow-up text-info"></i> Kecepatan sebelum kejadian
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-arrow-down text-danger"></i> Kecepatan setelah kejadian
+                                    </li>
+                                </ul>
+                                <div class="bg-light p-3 rounded" style="border-left: 4px solid #17a2b8;">
+                                    <small class="text-muted d-block mb-2"><strong>Contoh:</strong></small>
+                                    <small><i class="fas fa-circle text-info"></i> Sebelum: 45 km/jam</small><br/>
+                                    <small><i class="fas fa-circle text-danger"></i> Sesudah: 0 km/jam</small><br/>
+                                    <small class="fw-bold text-danger mt-2 d-block">⚠ Penurunan drastis → Potensi kecelakaan</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Analisis Decision Tree -->
+                <div class="row g-4 mb-4">
+                    <div class="col-12">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-dark text-white">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-diagram-project"></i> Analisis Menggunakan Decision Tree
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text mb-4">Proses analisis kecelakaan menggunakan algoritma Decision Tree:</p>
+                                <div class="bg-light p-4 rounded">
+                                    <div class="text-center mb-4">
+                                        <div class="badge bg-primary fs-6 p-3">
+                                            <i class="fas fa-gauge"></i> ATt
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row text-center mb-4">
+                                        <div class="col-6">
+                                            <div class="mb-3">
+                                                <i class="fas fa-arrow-down" style="font-size: 1.5rem; color: #28a745;"></i>
+                                            </div>
+                                            <div class="badge bg-success p-2 mb-3">ATt < 13 m/s²</div>
+                                            <div class="mb-3">
+                                                <i class="fas fa-arrow-down" style="font-size: 1.5rem; color: #28a745;"></i>
+                                            </div>
+                                            <div class="badge bg-light text-success p-2 border border-success">
+                                                ✓ Tidak Kecelakaan
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="mb-3">
+                                                <i class="fas fa-arrow-down" style="font-size: 1.5rem; color: #dc3545;"></i>
+                                            </div>
+                                            <div class="badge bg-danger p-2 mb-3">ATt ≥ 13 m/s²</div>
+                                            <div class="mb-3">
+                                                <i class="fas fa-arrow-down" style="font-size: 1.5rem; color: #dc3545;"></i>
+                                            </div>
+                                            <div class="badge bg-light text-dark p-2 border border-warning">
+                                                Cek GPS
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row text-center">
+                                        <div class="col-6"></div>
+                                        <div class="col-6">
+                                            <div class="row g-3">
+                                                <div class="col-6">
+                                                    <div class="mb-2">
+                                                        <small>Stabil</small><br/>
+                                                        <i class="fas fa-arrow-down text-success"></i>
+                                                    </div>
+                                                    <div class="badge bg-light text-success p-2 w-100" style="font-size: 0.75rem;">
+                                                        ✓ Tidak Kecelakaan
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="mb-2">
+                                                        <small>Turun Drastis</small><br/>
+                                                        <i class="fas fa-arrow-down text-danger"></i>
+                                                    </div>
+                                                    <div class="badge bg-danger p-2 w-100" style="font-size: 0.75rem;">
+                                                        ⚠ Potensi Kecelakaan
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Konfirmasi Pengguna -->
+                <div class="row g-4 mb-4">
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-header bg-danger text-white">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-bell"></i> Konfirmasi Pengguna
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text mb-4">
+                                    Untuk mengurangi kesalahan deteksi, sistem memberikan konfirmasi kepada pengguna.
+                                </p>
+                                <div class="bg-light p-4 rounded mb-4" style="border: 2px dashed #dc3545;">
+                                    <p class="text-center fw-bold mb-3">
+                                        <i class="fas fa-exclamation-triangle text-danger"></i><br/>
+                                        Kemungkinan kecelakaan terdeteksi.
+                                    </p>
+                                    <p class="text-center mb-4">
+                                        <strong>Apakah Anda baik-baik saja?</strong>
+                                    </p>
+                                    <div class="d-grid gap-2">
+                                        <button class="btn btn-success btn-sm" disabled>
+                                            <i class="fas fa-check"></i> YA
+                                        </button>
+                                        <button class="btn btn-danger btn-sm" disabled>
+                                            <i class="fas fa-times"></i> TIDAK
+                                        </button>
+                                    </div>
+                                    <p class="text-center mt-3 mb-0">
+                                        <small class="text-muted">
+                                            <i class="fas fa-hourglass-end"></i> 
+                                            <strong>Timer: 30 Detik</strong>
+                                        </small>
+                                    </p>
+                                </div>
+                                <small class="text-muted">
+                                    Pengguna memiliki waktu 30 detik untuk merespons
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7. Penentuan Status Akhir -->
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-header bg-secondary text-white">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-clipboard-list"></i> Penentuan Status Akhir
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text mb-4">Sistem membuat keputusan berdasarkan respons pengguna:</p>
+                                <div class="mb-3">
+                                    <p class="fw-bold text-success mb-2">
+                                        <i class="fas fa-check-circle"></i> Jika Pengguna Menekan YA
+                                    </p>
+                                    <div class="bg-light p-3 rounded ms-3 mb-3" style="border-left: 4px solid #28a745;">
+                                        <small>Status = <strong>Tidak Kecelakaan</strong></small>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <p class="fw-bold text-danger mb-2">
+                                        <i class="fas fa-times-circle"></i> Jika Tidak Ada Respons (30 Detik)
+                                    </p>
+                                    <div class="bg-light p-3 rounded ms-3 mb-3" style="border-left: 4px solid #dc3545;">
+                                        <small>Status = <strong>Kecelakaan</strong></small>
+                                    </div>
+                                </div>
+                                <p class="card-text fw-bold mb-2">Sistem akan:</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <i class="fas fa-location-dot text-danger"></i> Mengambil koordinat GPS
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-bell text-danger"></i> Mengirim notifikasi darurat
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-database text-danger"></i> Menyimpan data ke Firebase
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Kesimpulan Mekanisme Deteksi -->
+                <div class="row g-4 mb-4">
+                    <div class="col-12">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-success text-white">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-award"></i> Kesimpulan Mekanisme Deteksi
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text mb-4">
+                                    <strong>Sistem menyatakan terjadi kecelakaan apabila memenuhi kriteria berikut:</strong>
+                                </p>
+                                <div class="row g-3 mb-4">
+                                    <div class="col-md-6">
+                                        <div class="bg-light p-3 rounded">
+                                            <p class="mb-0">
+                                                <i class="fas fa-check text-success fw-bold"></i> 
+                                                Nilai accelerometer melewati ambang batas
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="bg-light p-3 rounded">
+                                            <p class="mb-0">
+                                                <i class="fas fa-check text-success fw-bold"></i> 
+                                                Terjadi perubahan percepatan secara tiba-tiba
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="bg-light p-3 rounded">
+                                            <p class="mb-0">
+                                                <i class="fas fa-check text-success fw-bold"></i> 
+                                                Kecepatan kendaraan turun drastis berdasarkan GPS
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="bg-light p-3 rounded">
+                                            <p class="mb-0">
+                                                <i class="fas fa-check text-success fw-bold"></i> 
+                                                Pengguna tidak merespons selama 30 detik
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <p class="card-text">
+                                    <strong>Sebaliknya,</strong> sistem menyatakan tidak terjadi kecelakaan apabila nilai sensor masih dalam kondisi normal atau 
+                                    pengguna memberikan konfirmasi bahwa dirinya baik-baik saja.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hasil yang Diharapkan -->
+            <section>
+                <h2 class="h3 fw-bold mb-4">
+                    <i class="fas fa-star"></i> Hasil yang Diharapkan
+                </h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-check text-success fw-bold"></i> <strong>Akurasi Model ≥ 95%</strong> dalam mendeteksi kecelakaan
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check text-success fw-bold"></i> <strong>Response Time &lt; 1 detik</strong> untuk alert kecelakaan
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check text-success fw-bold"></i> <strong>Aplikasi Mobile</strong> yang dapat berjalan offline
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check text-success fw-bold"></i> <strong>Website Informasi</strong> dengan visualisasi data lengkap
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-check text-success fw-bold"></i> <strong>Dokumentasi Lengkap</strong> tentang sistem dan implementasi
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check text-success fw-bold"></i> <strong>Dataset Publik</strong> untuk penelitian lebih lanjut
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check text-success fw-bold"></i> <strong>Publikasi Paper</strong> tentang hasil penelitian
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check text-success fw-bold"></i> <strong>Kontribusi pada Safety</strong> dalam transportasi
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal: Cara Kerja Sistem -->
+    <div class="modal fade" id="workflowModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title fw-bold">
+                        <i class="bi bi-brain"></i> Bagaimana Sistem Menentukan Terjadi Kecelakaan?
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Section 1: Pembacaan Sensor -->
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header bg-light">
+                            <h6 class="mb-0">
+                                <i class="bi bi-phone"></i> Pembacaan Sensor Accelerometer
+                            </h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-3">
+                                Sensor accelerometer membaca percepatan pada tiga sumbu:
+                            </p>
+                            <ul class="list-unstyled mb-3">
+                                <li class="mb-2"><i class="bi bi-arrow-right"></i> <strong>X</strong> - Sumbu horizontal kiri-kanan</li>
+                                <li class="mb-2"><i class="bi bi-arrow-right"></i> <strong>Y</strong> - Sumbu horizontal depan-belakang</li>
+                                <li class="mb-2"><i class="bi bi-arrow-right"></i> <strong>Z</strong> - Sumbu vertikal atas-bawah</li>
+                            </ul>
+                            <p class="mb-3">Resultan percepatan dihitung menggunakan:</p>
+                            <div class="bg-primary bg-opacity-10 p-3 rounded text-center">
+                                <p class="mb-0 fw-bold">
+                                    ATt = √(AccX² + AccY² + AccZ²)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 2: Kondisi Tidak Kecelakaan -->
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header bg-success bg-opacity-75 text-white">
+                            <h6 class="mb-0">
+                                <i class="bi bi-car-front"></i> Kondisi Tidak Kecelakaan
+                            </h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-3">Sistem menganggap tidak terjadi kecelakaan apabila:</p>
+                            <ul class="list-unstyled mb-3">
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success"></i> Nilai accelerometer berada pada rentang normal
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success"></i> Tidak terjadi benturan signifikan
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success"></i> Perubahan percepatan tidak ekstrem
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success"></i> Kecepatan kendaraan stabil
+                                </li>
+                            </ul>
+                            <div class="bg-success bg-opacity-10 p-3 rounded">
+                                <p class="mb-2"><strong>Contoh:</strong></p>
+                                <small>ATt = <strong>10.14 m/s²</strong></small><br/>
+                                <small class="badge bg-success mt-2">✓ Tidak Kecelakaan</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 3: Potensi Kecelakaan -->
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header bg-warning bg-opacity-75 text-white">
+                            <h6 class="mb-0">
+                                <i class="bi bi-exclamation-triangle"></i> Potensi Kecelakaan
+                            </h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-3">Sistem mencurigai kecelakaan apabila:</p>
+                            <div class="bg-warning bg-opacity-10 p-3 rounded mb-3">
+                                <p class="mb-0"><strong>ATt > 13 m/s²</strong></p>
+                                <small class="text-muted">atau</small>
+                                <p class="mb-0"><strong>ATt < 7 m/s²</strong></p>
+                            </div>
+                            <small class="text-muted">
+                                yang menunjukkan perubahan percepatan ekstrem dan kemungkinan benturan.
+                            </small>
+                        </div>
+                    </div>
+
+                    <!-- Section 4: Validasi GPS -->
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header bg-info bg-opacity-75 text-white">
+                            <h6 class="mb-0">
+                                <i class="bi bi-geo-alt"></i> Validasi GPS
+                            </h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-3">Setelah accelerometer mendeteksi anomali, sistem memeriksa data GPS.</p>
+                            <div class="row g-2 mb-3">
+                                <div class="col-6">
+                                    <div class="bg-info bg-opacity-10 p-3 rounded text-center">
+                                        <small class="text-muted">Sebelum</small><br/>
+                                        <strong>45 km/jam</strong>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="bg-danger bg-opacity-10 p-3 rounded text-center">
+                                        <small class="text-muted">Sesudah</small><br/>
+                                        <strong>0 km/jam</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <small class="text-muted">
+                                Penurunan kecepatan drastis meningkatkan kemungkinan kecelakaan.
+                            </small>
+                        </div>
+                    </div>
+
+                    <!-- Section 5: Decision Tree -->
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header bg-secondary text-white">
+                            <h6 class="mb-0">
+                                <i class="bi bi-diagram-3"></i> Analisis Decision Tree
+                            </h6>
+                        </div>
+                        <div class="card-body">
+                            <pre class="mb-0" style="font-size: 0.85rem;"><code>ATt
+│
+├── < 13 m/s²
+│      ↓
+│ ✓ Tidak Kecelakaan
+│
+└── ≥ 13 m/s²
+       ↓
+    Cek GPS
+       │
+       ├── Stabil
+       │      ↓
+       │ ✓ Tidak Kecelakaan
+       │
+       └── Turun Drastis
+              ↓
+         ⚠ Potensi Kecelakaan</code></pre>
+                        </div>
+                    </div>
+
+                    <!-- Section 6: Konfirmasi Pengguna -->
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header bg-danger bg-opacity-75 text-white">
+                            <h6 class="mb-0">
+                                <i class="bi bi-clock"></i> Konfirmasi Pengguna
+                            </h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-3">Sistem menampilkan notifikasi:</p>
+                            <div class="bg-danger bg-opacity-10 p-3 rounded mb-3 text-center">
+                                <p class="fw-bold mb-2">
+                                    <i class="bi bi-exclamation-circle-fill text-danger"></i>
+                                </p>
+                                <p class="mb-2">
+                                    <strong>Kemungkinan kecelakaan terdeteksi</strong>
+                                </p>
+                                <p class="mb-3">Apakah Anda baik-baik saja?</p>
+                                <div class="d-grid gap-2 mb-2">
+                                    <button class="btn btn-sm btn-success" disabled>
+                                        <i class="bi bi-check"></i> YA
+                                    </button>
+                                    <button class="btn btn-sm btn-danger" disabled>
+                                        <i class="bi bi-x"></i> TIDAK
+                                    </button>
+                                </div>
+                                <small class="text-muted">
+                                    <i class="bi bi-hourglass-split"></i> <strong>Waktu: 30 Detik</strong>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 7: Status Akhir -->
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header bg-dark text-white">
+                            <h6 class="mb-0">
+                                <i class="bi bi-flag"></i> Status Akhir
+                            </h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-3"><strong>Jika pengguna menekan YA:</strong></p>
+                            <div class="bg-success bg-opacity-10 p-2 rounded mb-3">
+                                <small><strong>Status = Tidak Kecelakaan</strong></small>
+                            </div>
+
+                            <p class="mb-3"><strong>Jika tidak ada respons selama 30 detik:</strong></p>
+                            <div class="bg-danger bg-opacity-10 p-2 rounded mb-3">
+                                <small><strong>Status = Kecelakaan</strong></small>
+                            </div>
+
+                            <p class="mb-2"><strong>Sistem akan:</strong></p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <i class="bi bi-geo-alt text-danger"></i> Mengambil lokasi GPS
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-bell text-danger"></i> Mengirim notifikasi darurat
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-cloud-upload text-danger"></i> Menyimpan data ke Firebase
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Section 8: Kesimpulan -->
+                    <div class="card border-0 mb-0 shadow-sm">
+                        <div class="card-header bg-success text-white">
+                            <h6 class="mb-0">
+                                <i class="bi bi-check-all"></i> Kesimpulan
+                            </h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-3"><strong>Sistem menyatakan kecelakaan apabila:</strong></p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success"></i> Nilai accelerometer melewati ambang batas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success"></i> Terjadi perubahan percepatan ekstrem
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success"></i> Kecepatan kendaraan turun drastis
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success"></i> Pengguna tidak merespons konfirmasi
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                    <h5 class="fw-bold mb-3">Sistem Deteksi Kecelakaan</h5>
+                    <p class="text-muted">
+                        Penelitian skripsi tentang deteksi kecelakaan otomatis berbasis smartphone menggunakan algoritma Decision Tree.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="fw-bold mb-3">Menu</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-muted text-decoration-none">Beranda</a></li>
+                        <li><a href="accelerometer.html" class="text-muted text-decoration-none">Data Accelerometer</a></li>
+                        <li><a href="map.html" class="text-muted text-decoration-none">Peta Lokasi</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">Tentang Sistem</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="fw-bold mb-3">Kontak</h5>
+                    <p class="text-muted">Universitas Timor</p>
+                    <p class="text-muted">Prodi: Sistem Informasi</p>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="text-center">
+                <p class="text-muted mb-0">
+                    &copy; 2026 Sistem Deteksi Kecelakaan. Universitas Timor | Tahun Penelitian 2026
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
